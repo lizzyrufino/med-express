@@ -1,10 +1,8 @@
 package br.com.medexpress.controller;
 import br.com.medexpress.domain.request.MedsRequestDTO;
-import br.com.medexpress.exceptions.BadRequestException;
 import br.com.medexpress.repository.entities.Meds;
 import br.com.medexpress.service.MedsService;
 import jakarta.validation.Valid;
-import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
