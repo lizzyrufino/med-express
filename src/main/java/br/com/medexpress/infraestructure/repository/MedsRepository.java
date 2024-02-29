@@ -1,6 +1,6 @@
-package br.com.medexpress.repository;
+package br.com.medexpress.infraestructure.repository;
 
-import br.com.medexpress.repository.entities.Meds;
+import br.com.medexpress.infraestructure.repository.entities.Meds;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 //O JPA do mongo só usa interface, então sempre será interface e não classe.

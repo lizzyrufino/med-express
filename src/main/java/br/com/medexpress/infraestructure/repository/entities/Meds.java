@@ -1,11 +1,10 @@
-package br.com.medexpress.repository.entities;
+package br.com.medexpress.infraestructure.repository.entities;
 
 import br.com.medexpress.enumeration.MedsType;
 import br.com.medexpress.enumeration.TagType;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import jakarta.persistence.Id;
-import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

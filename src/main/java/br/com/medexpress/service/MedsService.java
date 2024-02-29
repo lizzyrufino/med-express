@@ -1,8 +1,8 @@
 package br.com.medexpress.service;
 
 import br.com.medexpress.domain.request.MedsRequestDTO;
-import br.com.medexpress.repository.MedsRepository;
-import br.com.medexpress.repository.entities.Meds;
+import br.com.medexpress.infraestructure.repository.MedsRepository;
+import br.com.medexpress.infraestructure.repository.entities.Meds;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

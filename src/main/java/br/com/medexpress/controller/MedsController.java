@@ -1,6 +1,6 @@
 package br.com.medexpress.controller;
 import br.com.medexpress.domain.request.MedsRequestDTO;
-import br.com.medexpress.repository.entities.Meds;
+import br.com.medexpress.infraestructure.repository.entities.Meds;
 import br.com.medexpress.service.MedsService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
