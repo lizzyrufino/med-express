@@ -12,7 +12,7 @@
 	<artifactId>medexpress</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>MedExpress</name>
-	<description>Farmácia moral da Lizzy! </description>
+	<description>Projetinho da Lizzy! </description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
