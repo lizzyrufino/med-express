@@ -17,4 +17,21 @@ public class ApplicationConfig {
 
     @Value("${message-broker.meds-requested-queue-exchange}")
     private String medsRequestedQueueExchange;
+
+    @Value("${security.secret-key}")
+    private String secretKey;
+
+    @Value("${security.expires-in}")
+    private Long expiresIn;
+    @Value("${security.crypt.algorithm}")
+    private String algorithm;
+
+    @Value("${security.crypt.cipher}")
+    private String cipher;
+
+    @Value("${security.crypt.public-key}")
+    private String publicKey;
+    @Value("${security.crypt.private-key}")
+    private String privateKey;
+
 }
